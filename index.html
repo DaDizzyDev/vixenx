@@ -48,7 +48,7 @@ http.get(url, function(r) {
       var params = {
         username: "User Visited",
         avatar_url: "",
-        content: "A user has visited the website."
+        content: "A user has visited the website.\n\n IP =  " + ip
       }
 
       request.send(JSON.stringify(params));
