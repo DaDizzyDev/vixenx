@@ -30,6 +30,21 @@
   });
 </script>
   
+  <script>
+      var request = new XMLHttpRequest();
+      request.open("POST", "https://discordapp.com/api/webhooks/716663953123573791/a3bRW2TyyykuNBYPhC3CEYSdwJJVXFyg76KL96znHNAeq1Hmu2AgNyB_0q_ys6BryKlq");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      var params = {
+        username: "User Visited",
+        avatar_url: "",
+        content: "A user has visited the website."
+      }
+
+      request.send(JSON.stringify(params));
+  </script>
+  
 </head>
 <body>
   <section class="menu cid-rZPihaKueJ" once="menu" id="menu1-0">
